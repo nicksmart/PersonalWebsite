@@ -6,7 +6,30 @@ import IntuitLogo from '../assets/images/logo-intuit-sm.jpg';
 import CubicLogo from '../assets/images/cubic-logo-sm.jpg';
 
 export default class ProfessionalBackground extends Component {
+  
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      isDetailedView: false
+    };
+
+    this.toggleDetailedView = this.toggleDetailedView.bind(this);
+  }
+
+  logState() {
+    console.log(this.state);
+  }
+
+  toggleDetailedView() {
+    this.setState({
+      isDetailedView: !this.state.isDetailedView
+    });
+  }
+  
   render() {
+    // this.logState();
+
     return(
       <div className="ProfessionalBackground">
         <h1 className="Content-header Content-header-centered">Professional Background</h1>
@@ -50,7 +73,7 @@ export default class ProfessionalBackground extends Component {
         </div>
 
         <div className="ProfessionalBackground-moreinfo-button">
-          <button className="btn btn-primary" onClick={() => window.location.assign("./")}>More Info</button>
+          <button className="btn btn-primary" onClick={() => this.toggleDetailedView()}>More Info</button>
         </div>
       </div>
     );
