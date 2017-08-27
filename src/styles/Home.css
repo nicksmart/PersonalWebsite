@@ -23,7 +23,7 @@ body.is-loading *, body.is-loading *:before, body.is-loading *:after {
   width: 333px;
   height: 250px;
   margin: 0 auto;
-  border: 1px solid #ffffff;
+  border: 1px solid #636363;
   border-radius: 4px;
   margin-top: 30px;
   background-image: url(../assets/images/header-small.jpg); }
@@ -40,12 +40,16 @@ body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 .App-content {
   background-color: #ffffff;
   text-align: center;
-  height: 1000px;
   border-radius: 5px;
   max-width: 1000px;
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 200px; }
+  .App-content-card {
+    padding: 4em 4em 2em 4em;
+    border-top: 1px solid black; }
+    .App-content-card-first {
+      border-top: none; }
 
 .App-navlink {
   text-decoration: none;
@@ -144,9 +148,3 @@ body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 
 #nav.App-nav.alt ul li a {
   font-size: 0.9em; }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg); }
-  to {
-    transform: rotate(360deg); } }
