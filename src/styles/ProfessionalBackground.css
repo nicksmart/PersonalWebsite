@@ -1,16 +1,25 @@
 .ProfessionalBackground {
   text-align: center;
   color: #636363; }
-  .ProfessionalBackground-content {
+  .ProfessionalBackground-imagecontent {
     display: flex;
-    flex-direction: row; }
-    .ProfessionalBackground-content-image {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; }
+    .ProfessionalBackground-imagecontent-image {
       display: block;
-      border: 1px solid #dddddd;
       border-radius: 5px;
       margin-left: 25px; }
-      .ProfessionalBackground-content-image-Michigan {
+      .ProfessionalBackground-imagecontent-image-Michigan {
         margin-left: 0; }
+  .ProfessionalBackground-textcontent {
+    margin-top: 3em;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: left;
+    color: #636363; }
+  .ProfessionalBackground-moreinfo-button {
+    margin-top: 40px; }
 
 .Content-header-centered:after {
   margin-left: auto;
