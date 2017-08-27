@@ -1,21 +1,28 @@
 import React, { Component } from 'react';
-import logo from '../logo.svg';
+// import logo from '../logo.svg';
 import '../styles/Home.css';
 
 class Home extends Component {
   render() {
+    
     return (
-      <div className="App">
-        <div className="App-header_photo" />
+      <div className="AppWrapper">
+        
         <div className="App-header">
+          <div className="App-header_photo" />
           <h1 className="App-header-myname">Nick Smart</h1>
-          <p className="App-header-myinfo">
-            Software Engineer<br>
-            </br>University of Michigan<br>
-            </br>Computer Science Engineer in the College of Engineering<br>
-            </br>Business Minor in the Stephen M. Ross School of Business<br></br>
-          </p>
         </div>
+        <div className="App-content">
+          <nav className="App-nav" id="nav">
+            <ul>
+              <li><a className="App-navlink" href="#intro">Introduction</a></li>
+              <li><a className="App-navlink" href="#first">First Section</a></li>
+              <li><a className="App-navlink" href="#second">Second Section</a></li>
+              <li><a className="App-navlink" href="#cta">Get Started</a></li>
+            </ul>
+          </nav>
+        </div>
+
       </div>
     );
   }
