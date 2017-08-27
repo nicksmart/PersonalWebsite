@@ -42,6 +42,11 @@ class Home extends Component {
               <Introduction />
             </div>
           </div>
+          <div className="App-content-card">
+            <div className="App-ProfessionalBackground">
+              
+            </div>
+          </div>
         </div>
 
       </div>
