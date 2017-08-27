@@ -4,17 +4,8 @@ import Introduction from './Introduction';
 import ProfessionalBackground from './ProfessionalBackground';
 import LinkInIcon from '../assets/images/linked_icon.png';
 import EmailIcon from '../assets/images/email_icon.png';
-// import ScrollingColorBackground from 'react-scrolling-color-background';
-// import $ from 'jquery';
-
-// const BackgroundColors = {
-//   // background1: '#7d99b5',
-//   // background2: '#123456',
-//   // background3: '#012d4b'
-//   background1: 'rgb(125, 153, 181)',
-//   background2: 'rgb(18, 52, 86)',
-//   background3: 'rgb(1, 45, 75)'
-// };
+import FacebookIcon from '../assets/images/facebook_icon.png';
+import GithubIcon from '../assets/images/github-icon.png';
 
 class Home extends Component {
   
@@ -53,13 +44,19 @@ class Home extends Component {
         </div>
 
         <div className="App-footer">
+          <a href="https://www.facebook.com/nsmart55" target="_blank">
+            <img className="App-footer-link" src={FacebookIcon} alt="Facebook Profile" />
+          </a>
           <a href="https://www.linkedin.com/in/npsmart" target="_blank">
-            <img src={LinkInIcon} alt="LinkedIn Profile" />
+            <img className="App-footer-link" src={LinkInIcon} alt="LinkedIn Profile" />
           </a>
-
+          <a href="https://github.com/nicksmart" target="_blank">
+            <img className="App-footer-link" src={GithubIcon} alt="Github Profile" />
+          </a>
           <a href="mailto:npsmart@umich.edu" target="_blank">
-              <img src={EmailIcon} alt="Email" />
+              <img className="App-footer-link" src={EmailIcon} alt="Email" />
           </a>
+          <p className="App-footer-copyright">&copy; Nick Smart</p>
         </div>
 
       </div>

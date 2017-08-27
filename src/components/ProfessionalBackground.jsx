@@ -79,3 +79,5 @@ export default class ProfessionalBackground extends Component {
     );
   }
 }
+
+// Still want to add in another component for detailed view
