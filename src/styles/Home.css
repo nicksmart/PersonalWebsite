@@ -6,6 +6,9 @@ body {
   background-image: url("../assets/images/overlay.png"), -ms-linear-gradient(45deg, #7D99B5 15%, #123456 85%);
   background-image: url("../assets/images/overlay.png"), linear-gradient(45deg, #7D99B5 15%, #123456 85%); }
 
+a:hover {
+  text-decoration: none; }
+
 body.is-loading *, body.is-loading *:before, body.is-loading *:after {
   -moz-animation: none !important;
   -webkit-animation: none !important;
@@ -83,8 +86,6 @@ body.is-loading *, body.is-loading *:before, body.is-loading *:after {
   transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
   background-color: #ffffff;
   color: #636363;
-  width: 64em;
-  max-width: calc(100% - 2em);
   padding: 1em;
   background-color: #f7f7f7;
   border-top-left-radius: 0.25em;
