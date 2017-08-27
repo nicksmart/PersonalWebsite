@@ -1,0 +1,17 @@
+.ProfessionalBackground {
+  text-align: center;
+  color: #636363; }
+  .ProfessionalBackground-content {
+    display: flex;
+    flex-direction: row; }
+    .ProfessionalBackground-content-image {
+      display: block;
+      border: 1px solid #dddddd;
+      border-radius: 5px;
+      margin-left: 25px; }
+      .ProfessionalBackground-content-image-Michigan {
+        margin-left: 0; }
+
+.Content-header-centered:after {
+  margin-left: auto;
+  margin-right: auto; }

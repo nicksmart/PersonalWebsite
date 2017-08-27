@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/Home.css';
-import Introduction from './Introduction.jsx';
+import Introduction from './Introduction';
+import ProfessionalBackground from './ProfessionalBackground';
 // import ScrollingColorBackground from 'react-scrolling-color-background';
 // import $ from 'jquery';
 
@@ -44,7 +45,7 @@ class Home extends Component {
           </div>
           <div className="App-content-card">
             <div className="App-ProfessionalBackground">
-              
+              <ProfessionalBackground />
             </div>
           </div>
         </div>
