@@ -11,7 +11,7 @@ body {
   width: 333px;
   height: 250px;
   margin: 0 auto;
-  border: 1px solid #fff;
+  border: 1px solid #ffffff;
   border-radius: 4px;
   margin-top: 30px;
   background-image: url(../assets/images/header-small.jpg); }
@@ -23,10 +23,10 @@ body {
 .App-header-myname {
   font-size: 40px;
   margin-top: 40px;
-  color: #fff; }
+  color: #ffffff; }
 
 .App-content {
-  background-color: #fff;
+  background-color: #ffffff;
   text-align: center;
   margin: 50px 70px 200px 70px;
   height: 1000px;
@@ -35,6 +35,9 @@ body {
 .App-navlink {
   text-decoration: none;
   color: #636363; }
+
+.activebutton {
+  background-color: #ffffff; }
 
 #nav.App-nav {
   -moz-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;

@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
-// import logo from '../logo.svg';
 import '../styles/Home.css';
+
+const BackgroundColors = {
+  background1: '#7d99b5',
+  background2: '#123456',
+  background3: '#012d4b'
+};
 
 class Home extends Component {
   render() {
@@ -15,7 +20,7 @@ class Home extends Component {
         <div className="App-content">
           <nav className="App-nav" id="nav">
             <ul>
-              <li><a className="App-navlink" href="#intro">Introduction</a></li>
+              <li><a className="App-navlink activebutton" href="#intro">Introduction</a></li>
               <li><a className="App-navlink" href="#first">First Section</a></li>
               <li><a className="App-navlink" href="#second">Second Section</a></li>
               <li><a className="App-navlink" href="#cta">Get Started</a></li>
