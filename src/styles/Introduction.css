@@ -2,8 +2,7 @@
   display: flex;
   flex-direction: row;
   text-align: left;
-  color: #636363;
-  margin-bottom: 50px; }
+  color: #636363; }
   .Introduction-text {
     max-width: 60%; }
   .Introduction-image {

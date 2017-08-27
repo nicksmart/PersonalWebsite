@@ -46,7 +46,7 @@ body.is-loading *, body.is-loading *:before, body.is-loading *:after {
   margin-top: 50px;
   margin-bottom: 200px; }
   .App-content-card {
-    padding: 4em 4em 2em 4em;
+    padding: 4em 4em 5em 4em;
     border-top: 1px solid black; }
     .App-content-card-first {
       border-top: none; }

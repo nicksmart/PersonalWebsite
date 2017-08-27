@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import '../styles/Home.css';
 import '../styles/Introduction.css';
 
 export default class Introduction extends Component {
@@ -11,7 +10,7 @@ export default class Introduction extends Component {
           <p>
             Hi! My name is Nick and I'm a software developer from San Diego, California. 
             I'm a junior at the University of Michigan studying Computer Science Engineering and minoring in business. 
-            After college, I hope to be a versitile full stack software engineer.<br /><br />
+            After college, I hope to be a versatile full stack software engineer.<br /><br />
             Welcome to my website!
           </p>
         </div>
