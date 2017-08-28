@@ -1,0 +1,16 @@
+.MinimalProfessionalBackground {
+  animation: fadeIn 2s; }
+  .MinimalProfessionalBackground-textcontent {
+    margin-top: 3em;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: left;
+    color: #636363; }
+  .MinimalProfessionalBackground-info-button {
+    margin-top: 40px; }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }

@@ -1,4 +1,5 @@
 body {
+  animation: fadeIn 2s;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #123456;
   background-image: url("../assets/images/overlay.png"), -moz-linear-gradient(45deg, #7D99B5 15%, #123456 85%);
@@ -171,3 +172,9 @@ body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 
 #nav.App-nav.alt ul li a {
   font-size: 0.9em; }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
