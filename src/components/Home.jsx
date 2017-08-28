@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../styles/Home.css';
 import Introduction from './Introduction';
 import ProfessionalBackground from './ProfessionalBackground';
+import Recruit from './Recruit';
 import Footer from './Footer';
 
 class Home extends Component {
@@ -36,6 +37,11 @@ class Home extends Component {
           <div className="App-content-card">
             <div className="App-ProfessionalBackground">
               <ProfessionalBackground />
+            </div>
+          </div>
+          <div className="App-content-card">
+            <div className="App-Recruit">
+              <Recruit />
             </div>
           </div>
         </div>
