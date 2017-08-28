@@ -5,6 +5,7 @@ import NavBar from './NavBar';
 import Introduction from './Introduction';
 import ProfessionalBackground from './ProfessionalBackground';
 import Recruit from './Recruit';
+import Personal from './Personal';
 import Footer from './Footer';
 
 class Home extends Component {
@@ -23,13 +24,15 @@ class Home extends Component {
   }
 
   generateCards() {
+    // FIGURE OUT HOW TO GET THIS FUNCTION WORKING LATER
+    
     let cards = [];
     this.state.cards.forEach((elt) => {
       const firstStr = (elt === 'Introduction') ? 'App-content-card-first' : '';
       cards.push(
         <div className={`App-content-card ${firstStr}`}>
           <div className={`App-${elt}`}>
-            <elt />
+            {React.createElement(elt)}
           </div>
         </div>
       );
@@ -47,8 +50,8 @@ class Home extends Component {
   
   render() {
 
-    // const cards = this.generateCards();
-    // console.log(cards);
+    // const contentCards = this.generateCards();
+    // console.log(contentCards);
     
     return (
       <div className="AppWrapper">
@@ -75,6 +78,11 @@ class Home extends Component {
           <div id="App-Recruit" className="App-content-card">
             <div className="App-Recruit">
               <Recruit />
+            </div>
+          </div>
+          <div id="App-Personal" className="App-content-card">
+            <div className="App-Personal">
+              <Personal />
             </div>
           </div>
         </div>
