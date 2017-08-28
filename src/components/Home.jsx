@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/Home.css';
 import Banner from '../assets/images/Website-Banner.jpg';
+import NavBar from './NavBar';
 import Introduction from './Introduction';
 import ProfessionalBackground from './ProfessionalBackground';
 import Recruit from './Recruit';
@@ -54,7 +55,7 @@ class Home extends Component {
         </div>
 
         <div className="App-content">
-          <div className="App-NavBar-wrapper">
+          {/* <div className="App-NavBar-wrapper">
             <nav className="App-nav" id="nav">
               <ul>
                 <li><a className="App-navlink activebutton" href="#intro">Introduction</a></li>
@@ -63,7 +64,8 @@ class Home extends Component {
                 <li><a className="App-navlink" href="#cta">Get Started</a></li>
               </ul>
             </nav>
-          </div>
+          </div> */}
+          <NavBar />
 
           <div className="App-content-card App-content-card-first">
             <div className="App-Introduction">
