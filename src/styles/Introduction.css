@@ -4,7 +4,8 @@
   text-align: left;
   color: #636363; }
   .Introduction-text {
-    max-width: 60%; }
+    max-width: 60%;
+    font-size: 16px; }
   .Introduction-image {
     display: block;
     border: 1px solid #dddddd;

@@ -1,6 +1,7 @@
 .MinimalProfessionalBackground {
   animation: fadeIn 2s; }
   .MinimalProfessionalBackground-textcontent {
+    font-size: 16px;
     margin-top: 3em;
     margin-left: 50px;
     margin-right: 50px;
