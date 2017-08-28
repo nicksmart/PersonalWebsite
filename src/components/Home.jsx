@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/Home.css';
+import Banner from '../assets/images/Website-Banner.jpg';
 import Introduction from './Introduction';
 import ProfessionalBackground from './ProfessionalBackground';
 import Recruit from './Recruit';
@@ -47,8 +48,9 @@ class Home extends Component {
       <div className="AppWrapper">
         
         <div className="App-header">
-          <div className="App-header_photo" />
-          <h1 className="App-header-myname">Nick Smart</h1>
+          <div>
+            <img className="App-header_photo" src={Banner} alt="Website Banner" />
+          </div>
         </div>
 
         <div className="App-content">

@@ -46,13 +46,12 @@ body.is-loading *, body.is-loading *:before, body.is-loading *:after {
   text-align: center; }
 
 .App-header_photo {
-  width: 333px;
-  height: 250px;
+  width: 1000px;
   margin: 0 auto;
   border: 1px solid #636363;
   border-radius: 4px;
-  margin-top: 30px;
-  background-image: url(../assets/images/header-small.jpg); }
+  margin-top: 70px;
+  margin-bottom: 40px; }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;

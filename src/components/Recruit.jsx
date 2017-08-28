@@ -12,14 +12,14 @@ export default class Recruit extends Component {
       showResume: false
     };
 
-    this.toggleShowResume = this.toggleShowResume.bind(this);
+    // this.toggleShowResume = this.toggleShowResume.bind(this);
   }
 
-  toggleShowResume() {
-    this.setState({
-      showResume: !this.state.showResume
-    });
-  }
+  // toggleShowResume() {
+  //   this.setState({
+  //     showResume: !this.state.showResume
+  //   });
+  // }
   
   render() {
     // const resume = (this.state.showResume) ? <ReactPDF file={Resume} /> : '';
@@ -28,7 +28,7 @@ export default class Recruit extends Component {
       <div className="Recruit">
         <h1 className="Content-header Content-header-centered">Recruiting</h1>
         <div className="Recruit-resumediv">
-          <button className="Recruit-resume" onClick={this.toggleShowResume()} target="_blank">
+          <button className="Recruit-resume" target="_blank">
             <img className="Recruit-resume" src={ResumeIcon} alt="Resume" />
           </button>
         </div>
