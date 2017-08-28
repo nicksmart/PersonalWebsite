@@ -5,7 +5,8 @@ body {
   background-image: url("../assets/images/overlay.png"), -moz-linear-gradient(45deg, #7D99B5 15%, #123456 85%);
   background-image: url("../assets/images/overlay.png"), -webkit-linear-gradient(45deg, #7D99B5 15%, #123456 85%);
   background-image: url("../assets/images/overlay.png"), -ms-linear-gradient(45deg, #7D99B5 15%, #123456 85%);
-  background-image: url("../assets/images/overlay.png"), linear-gradient(45deg, #7D99B5 15%, #123456 85%); }
+  background-image: url("../assets/images/overlay.png"), linear-gradient(45deg, #7D99B5 15%, #123456 85%);
+  scroll-behavior: smooth; }
 
 a:hover {
   text-decoration: none; }

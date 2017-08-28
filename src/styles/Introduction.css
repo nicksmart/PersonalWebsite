@@ -12,6 +12,7 @@
     border-radius: 5px;
     width: 25%;
     min-width: 220px;
+    max-height: 222px;
     margin-left: 7em;
     text-align: center;
     background: url(../assets/images/laptopcoding.jpg) no-repeat; }

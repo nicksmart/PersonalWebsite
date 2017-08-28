@@ -39,6 +39,11 @@ class Home extends Component {
 
     return cards;
   }
+
+  scrollTo(sectionID) {
+    const elt = document.getElementById(sectionID);
+    elt.scrollIntoView(true);
+  }
   
   render() {
 
@@ -55,29 +60,19 @@ class Home extends Component {
         </div>
 
         <div className="App-content">
-          {/* <div className="App-NavBar-wrapper">
-            <nav className="App-nav" id="nav">
-              <ul>
-                <li><a className="App-navlink activebutton" href="#intro">Introduction</a></li>
-                <li><a className="App-navlink" href="#first">First Section</a></li>
-                <li><a className="App-navlink" href="#second">Second Section</a></li>
-                <li><a className="App-navlink" href="#cta">Get Started</a></li>
-              </ul>
-            </nav>
-          </div> */}
           <NavBar />
 
-          <div className="App-content-card App-content-card-first">
+          <div id="App-Introduction" className="App-content-card App-content-card-first">
             <div className="App-Introduction">
               <Introduction />
             </div>
           </div>
-          <div className="App-content-card">
+          <div id="App-ProfessionalBackground" className="App-content-card">
             <div className="App-ProfessionalBackground">
               <ProfessionalBackground />
             </div>
           </div>
-          <div className="App-content-card">
+          <div id="App-Recruit" className="App-content-card">
             <div className="App-Recruit">
               <Recruit />
             </div>
