@@ -26,13 +26,11 @@ export default class ProfessionalBackground extends Component {
   }
   
   render() {
-    let content = '', buttonText = 'More Info';
+    let content = '';
     if (this.state.isDetailedView) {
       content = <DetailedProfessionalBackground toggleDetailedView={this.toggleDetailedView} />;
-      buttonText = 'Less Info';
     } else {
       content = <MinimalProfessionalBackground toggleDetailedView={this.toggleDetailedView} />;
-      buttonText = 'More Info';
     }
 
     return(

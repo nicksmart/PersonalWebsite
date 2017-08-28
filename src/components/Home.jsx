@@ -7,7 +7,41 @@ import Footer from './Footer';
 
 class Home extends Component {
   
+  constructor(props) {
+    super(props);
+    this.state = {
+      cards: [
+        'Introduction',
+        'ProfessionalBackground',
+        'Recruit'
+      ]
+    };
+
+    this.generateCards = this.generateCards.bind(this);
+  }
+
+  generateCards() {
+    let cards = [];
+    this.state.cards.forEach((elt) => {
+      const firstStr = (elt === 'Introduction') ? 'App-content-card-first' : '';
+      cards.push(
+        <div className={`App-content-card ${firstStr}`}>
+          <div className={`App-${elt}`}>
+            <elt />
+          </div>
+        </div>
+      );
+    });
+
+    console.log(cards);
+
+    return cards;
+  }
+  
   render() {
+
+    // const cards = this.generateCards();
+    // console.log(cards);
     
     return (
       <div className="AppWrapper">
