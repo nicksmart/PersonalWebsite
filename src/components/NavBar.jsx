@@ -25,7 +25,7 @@ export default class NavBar extends Component {
           <ul>
             <li>
               <a
-                className="App-navlink activebutton"
+                className="App-navlink"
                 href="#intro"
                 onClick={() => this.scrollTo('App-Introduction')}>
                 Introduction
