@@ -52,6 +52,11 @@ class Home extends Component {
 
     // const contentCards = this.generateCards();
     // console.log(contentCards);
+
+    // Adding this alert so users know that site isn't mobile responsive yet
+    if (window.innerWidth < 1024) {
+      alert('NOTE:\nI have not made this site mobile responsive yet. It\'s on my list of things to do');
+    }
     
     return (
       <div className="AppWrapper">
