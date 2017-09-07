@@ -34,7 +34,7 @@ export default class NavBar extends Component {
             <li>
               <a
                 className="App-navlink"
-                href="#first"
+                href="#background"
                 onClick={() => this.scrollTo('App-ProfessionalBackground')}>
                 Professional Background
               </a>
@@ -42,7 +42,7 @@ export default class NavBar extends Component {
             <li>
               <a
                 className="App-navlink"
-                href="#second"
+                href="#recruit"
                 onClick={() => this.scrollTo('App-Recruit')}>
                 Recruit
               </a>
@@ -50,7 +50,7 @@ export default class NavBar extends Component {
             <li>
               <a
                 className="App-navlink"
-                href="#cta"
+                href="#personal"
                 onClick={() => this.scrollTo('App-Personal')}>
                 Personal
               </a>
